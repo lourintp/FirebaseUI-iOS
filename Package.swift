@@ -20,6 +20,6 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "FirebaseUITests",
-            dependencies: ["MyLibrary"]),
+            dependencies: ["FirebaseUI"]),
     ]
 )
